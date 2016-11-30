@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+#header-container img{
+	width: 100%;
+}
+
+#wrapper {
+	display: table;
+	max-width: 800px;
+	margin: auto;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+#video {
+	max-width: 640px;
+	margin: auto;
+}
+
+#video iframe{
+	width: 100%;
+	max-width: 640px;
+	margin: auto;
+}
+
+.text {
+	margin: 2% 5%;
+}
+
+#header-container, #intro-text-container, #video-container, #closing-text-container, #footer-container{
+	position: relative;
+	display: table-row;
+}
+
+#footer {
+	position: relative;
+	background-image: url("footer background.jpg");
+}
+
+#footer-text{
+	position: relative;
+	font-family: georgia, serif;
+}
+
+#footer-text a {
+	color: rgb(56,49,43) !important;
+	padding: 5%;
+	display: inline-block;
+}
